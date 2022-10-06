@@ -1,0 +1,42 @@
+body {
+    background-color: #d5e1ef;
+    position: relative;
+}
+
+div.container{
+    margin: 100px auto;
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+div#qr-code{
+    max-height: 250px;
+    max-width: 250px;
+}
+div img{
+    border-radius: 15px;
+
+}
+
+div#main{
+    max-width: 250px;
+    text-align: center;
+    font-family: 'Courier', Courier, monospace, serif;
+}
+
+div#description{
+    max-width: 250px;
+    text-align: center;
+    font-family: 'Courier', Courier, monospace, serif;
+}
+
+div.attribution{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier', Courier, monospace, serif;
+}
